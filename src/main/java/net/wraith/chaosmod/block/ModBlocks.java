@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.MapColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -24,6 +25,10 @@ public class ModBlocks {
     public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
             new Block(Block.Settings.copy(Blocks.DEEPSLATE_IRON_ORE)));
 
+
+    // End grass Block
+    public static final Block END_GRASS_BLOCK = registerBlock("end_grass_block",
+            new Block(Block.Settings.copy(Blocks.END_STONE).mapColor(MapColor.PURPLE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

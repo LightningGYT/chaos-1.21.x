@@ -1,0 +1,10 @@
+{
+  "parent":  "minecraft:block/cube_bottom_top",
+  "textures":
+  {
+    "particle": "minecraft:block/end_stone",
+    "bottom": "minecraft:block/end_stone",
+    "top": "chaosmod:block/end_grass_top",
+    "side": "chaosmod:block/end_grass_side"
+  }
+}
