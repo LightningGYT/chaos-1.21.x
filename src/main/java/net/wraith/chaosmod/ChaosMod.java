@@ -2,6 +2,7 @@ package net.wraith.chaosmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.wraith.chaosmod.block.ModBlocks;
 import net.wraith.chaosmod.item.ModItemGroups;
 import net.wraith.chaosmod.item.ModItems;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class ChaosMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

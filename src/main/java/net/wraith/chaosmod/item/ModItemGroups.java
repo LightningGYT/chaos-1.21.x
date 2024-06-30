@@ -8,13 +8,20 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.wraith.chaosmod.ChaosMod;
+import net.wraith.chaosmod.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup CHAOS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(ChaosMod.MOD_ID, "chaos"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.chaos"))
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
+                        // Items
                         entries.add(ModItems.RUBY);
+
+                        // Block Items
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                     }).build());
 
     public static void registerItemGroups() {

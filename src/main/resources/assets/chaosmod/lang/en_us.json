@@ -1,5 +1,9 @@
 {
   "item.chaosmod.ruby": "Ruby",
 
+  "block.chaosmod.ruby_block": "Ruby Block",
+  "block.chaosmod.ruby_ore": "Ruby Ore",
+  "block.chaosmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+
   "itemgroup.chaos": "ChAoS gRoUp"
 }
