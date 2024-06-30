@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "chaosmod",
+	"version": "${version}",
+	"name": "Chaos Mod",
+	"description": "This is a chaotic mod",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/chaosmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.wraith.chaosmod.ChaosMod"
+		],
+		"client": [
+			"net.wraith.chaosmod.ChaosModClient"
+		],
+		"fabric-datagen": [
+			"net.wraith.chaosmod.ChaosModDataGenerator"
+		]
+	},
+	"mixins": [
+		"chaosmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
