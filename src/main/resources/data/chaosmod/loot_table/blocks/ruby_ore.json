@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "pools": {
+  "pools": [{
     "rolls": 1,
     "entries": [
       {
@@ -13,5 +13,5 @@
         "condition": "minecraft:survives_explosion"
       }
     ]
-  }
+  }]
 }
