@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "building",
+  "ingredient": {
+    "item": "chaosmod:deepslate_ruby_ore"
+  },
+  "result": {
+    "id": "chaosmod:ruby"
+  }
+}
