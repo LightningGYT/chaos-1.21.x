@@ -14,11 +14,15 @@ public class ModItems {
     public static final Item RUBY = registerItem("ruby",
             new Item(new Item.Settings()));
 
+    // Food
+    public static final Item TOMATO = registerItem("tomato",
+            new Item(new Item.Settings().food(ModFoodComponents.TOMATO)));
 
-    // Add Items to Creative Inventory
-    private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
-//        entries.add(RUBY);
-    }
+    public static final Item ROTTEN_TOMATO = registerItem("rotten_tomato",
+            new Item(new Item.Settings().food(ModFoodComponents.ROTTEN_TOMATO)));
+
+    public static final Item TOMATO_SAUCE = registerItem("tomato_sauce",
+            new Item(new Item.Settings().food(ModFoodComponents.TOMATO_SAUCE)));
 
     // Add Items Method
     private static Item registerItem(String name, Item item) {
@@ -28,6 +32,6 @@ public class ModItems {
     public static void registerModItems() {
         ChaosMod.LOGGER.info("Registering Mod Items for " + ChaosMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
+
     };
 }

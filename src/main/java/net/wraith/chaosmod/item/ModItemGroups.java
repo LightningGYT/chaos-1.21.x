@@ -17,6 +17,9 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         // Items
                         entries.add(ModItems.RUBY);
+                        entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.ROTTEN_TOMATO);
+                        entries.add(ModItems.TOMATO_SAUCE);
 
                         // Block Items
                         entries.add(ModBlocks.RUBY_BLOCK);

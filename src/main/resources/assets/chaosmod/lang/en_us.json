@@ -1,5 +1,8 @@
 {
   "item.chaosmod.ruby": "Ruby",
+  "item.chaosmod.tomato": "Tomato",
+  "item.chaosmod.rotten_tomato": "Rotten Tomato",
+  "item.chaosmod.tomato_sauce": "Tomato Sauce",
 
   "block.chaosmod.ruby_block": "Ruby Block",
   "block.chaosmod.ruby_ore": "Ruby Ore",
