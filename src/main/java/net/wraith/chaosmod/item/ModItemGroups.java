@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.ROTTEN_TOMATO);
                         entries.add(ModItems.TOMATO_SAUCE);
+                        entries.add(ModItems.LETTUCE);
 
                         // Block Items
                         entries.add(ModBlocks.RUBY_BLOCK);
