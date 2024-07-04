@@ -26,7 +26,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
-                        entries.add(ModBlocks.END_GRASS_BLOCK);
+                        entries.add(ModBlocks.ETHERIAM_GRASS_BLOCK);
+                        entries.add(ModBlocks.ETHERIAM_LOG);
+                        entries.add(ModBlocks.ETHERIAM_WOOD);
+                        entries.add(ModBlocks.ETHERIAM_PLANK);
                     }).build());
 
     public static void registerItemGroups() {

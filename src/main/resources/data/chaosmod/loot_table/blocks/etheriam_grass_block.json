@@ -5,7 +5,7 @@
     "entries": [
       {
         "type": "minecraft:item",
-        "name": "chaosmod:end_grass_block"
+        "name": "chaosmod:etheriam_grass_block"
       }
     ],
     "conditions": [

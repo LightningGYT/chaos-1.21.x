@@ -4,7 +4,7 @@
   {
     "particle": "minecraft:block/end_stone",
     "bottom": "minecraft:block/end_stone",
-    "top": "chaosmod:block/end_grass_top",
-    "side": "chaosmod:block/end_grass_side"
+    "top": "chaosmod:block/etheriam_grass_top",
+    "side": "chaosmod:block/etheriam_grass_side"
   }
 }

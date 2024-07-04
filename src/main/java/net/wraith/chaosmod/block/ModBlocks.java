@@ -1,6 +1,5 @@
 package net.wraith.chaosmod.block;
 
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -25,8 +24,31 @@ public class ModBlocks {
 
 
     // End grass Block
-    public static final Block END_GRASS_BLOCK = registerBlock("end_grass_block",
+    public static final Block ETHERIAM_GRASS_BLOCK = registerBlock("etheriam_grass_block",
             new Block(Block.Settings.copy(Blocks.END_STONE).mapColor(MapColor.PURPLE)));
+
+    // Etheriam Log
+    public static final Block ETHERIAM_LOG = registerBlock("etheriam_log",
+            new Block(Block.Settings.create()
+                    .mapColor(MapColor.PURPLE)
+                    .requiresTool()
+                    .strength(0.5f)
+            ));
+
+    // Etheriam Wood
+    public static final Block ETHERIAM_WOOD = registerBlock("etheriam_wood.json",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.PURPLE)
+                    .requiresTool()
+                    .strength(0.5f)
+            ));
+
+    // Etheriam Plank
+    public static final Block ETHERIAM_PLANK = registerBlock("etheriam_plank",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(3.0f, 4.0f)
+                    .mapColor(MapColor.PURPLE)
+                    ));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
