@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-
+    "chaosmod:etheriam_log",
+    "chaosmod:etheriam_wood",
+    "chaosmod:etheriam_plank"
   ]
 }
