@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "chaosmod:block/etheriam_log_top",
+    "side": "chaosmod:block/etheriam_log_side"
+  }
+}

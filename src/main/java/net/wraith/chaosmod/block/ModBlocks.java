@@ -29,15 +29,15 @@ public class ModBlocks {
 
     // Etheriam Log
     public static final Block ETHERIAM_LOG = registerBlock("etheriam_log",
-            new Block(Block.Settings.create()
+            new PillarBlock(Block.Settings.copy(Blocks.OAK_LOG)
                     .mapColor(MapColor.PURPLE)
                     .requiresTool()
                     .strength(0.5f)
             ));
 
     // Etheriam Wood
-    public static final Block ETHERIAM_WOOD = registerBlock("etheriam_wood.json",
-            new Block(AbstractBlock.Settings.create()
+    public static final Block ETHERIAM_WOOD = registerBlock("etheriam_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD)
                     .mapColor(MapColor.PURPLE)
                     .requiresTool()
                     .strength(0.5f)
