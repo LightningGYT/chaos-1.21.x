@@ -1,9 +1,11 @@
-// 1.21	2024-07-05T14:13:00.845636	Chaos Mod/Tags for minecraft:block
+// 1.21	2024-07-05T19:50:05.2034216	Chaos Mod/Tags for minecraft:block
+af4cf058cfa834e8a20a2d133616e6e8acf9e18e data\minecraft\tags\block\fences.json
 4f10d1ec3fc09e3a029975d2d9eaa2e7d81122ba data\minecraft\tags\block\needs_iron_tool.json
-b9428527b2079c98c08eab1cec47412636bf95cb data\minecraft\tags\block\mineable\axe.json
+f6775cbfd503519ee373d5f4121ffdc96fd23c8c data\minecraft\tags\block\mineable\axe.json
 e994789b1d7e31132644c89053403d30a3335dd2 data\minecraft\tags\block\logs.json
 3d8cbe18b228520354d9e76eb1f23df3d3c9945d data\chaosmod\tags\block\etheriam_logs.json
 677534fcfc017ff30c1ae93f5a7fcf257451a190 data\minecraft\tags\block\mineable\pickaxe.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\block\needs_diamond_tool.json
 177b70391e4315ef257b016a1227d0b6187a462b data\minecraft\tags\block\needs_stone_tool.json
 e63474380cffc905cb214ac4e151c0be9eaaaeed data\minecraft\tags\block\planks.json
+4f9f6166e879ae21cc2aa4a87ef328c58786a292 data\minecraft\tags\block\fence_gates.json

@@ -51,8 +51,46 @@ public class ModBlocks {
                     .mapColor(MapColor.PURPLE)
                     ));
 
+    // Etheriam Stairs
+    public static final Block ETHERIAM_STAIRS = registerBlock("etheriam_stairs",
+            new StairsBlock(ModBlocks.ETHERIAM_PLANK.getDefaultState(),
+                    AbstractBlock.Settings.copy(ModBlocks.ETHERIAM_PLANK)));
+
+    // Etheriam Slab
+    public static final Block ETHERIAM_SLAB = registerBlock("etheriam_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(ModBlocks.ETHERIAM_PLANK)));
+
+    // Etheriam Button
+    public static final Block ETHERIAM_BUTTON = registerBlock("etheriam_button",
+            new ButtonBlock(BlockSetType.OAK, 10, AbstractBlock.Settings.copy(ModBlocks.ETHERIAM_PLANK)));
+
+    // Etheriam pressure plate
+    public static final Block ETHERIAM_PRESSURE_PLATE = registerBlock("etheriam_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(ModBlocks.ETHERIAM_PLANK)));
+
+    // Etheriam fence
+    public static final Block ETHERIAM_FENCE = registerBlock("etheriam_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(ModBlocks.ETHERIAM_PLANK)));
+
+    // Etheriam fence gate
+    public static final Block ETHERIAM_FENCE_GATE = registerBlock("etheriam_fence_gate",
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(ModBlocks.ETHERIAM_PLANK)));
+
+    // Etheriam Door
+    public static final Block ETHERIAM_DOOR = registerBlock("etheriam_door",
+            new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(ModBlocks.ETHERIAM_PLANK)
+                    .nonOpaque()));
+
+    // Etheriam Trap Door
+    public static final Block ETHERIAM_TRAPDOOR = registerBlock("etheriam_trapdoor",
+            new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(ModBlocks.ETHERIAM_PLANK)
+                    .nonOpaque()
+            ));
+
+
+
     private static Block registerBlock(String name, Block block) {
-        registerBlockItem(name, block);
+        Item item = registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(ChaosMod.MOD_ID, name), block);
     }
 

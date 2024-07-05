@@ -12,6 +12,14 @@
   "block.chaosmod.etheriam_log": "Etheriam Log",
   "block.chaosmod.etheriam_wood": "Etheriam Wood",
   "block.chaosmod.etheriam_plank": "Etheriam Planks",
+  "block.chaosmod.etheriam_stairs": "Etheriam Stairs",
+  "block.chaosmod.etheriam_slab": "Etheriam Slab",
+  "block.chaosmod.etheriam_button": "Etheriam Button",
+  "block.chaosmod.etheriam_pressure_plate": "Etheriam Pressure Plate",
+  "block.chaosmod.etheriam_fence": "Etheriam Fence",
+  "block.chaosmod.etheriam_fence_gate": "Etheriam Fence Gate",
+  "block.chaosmod.etheriam_door": "Etheriam Door",
+  "block.chaosmod.etheriam_trapdoor": "Etheriam Trapdoor",
 
   "itemgroup.chaos": "ChAoS gRoUp"
 }

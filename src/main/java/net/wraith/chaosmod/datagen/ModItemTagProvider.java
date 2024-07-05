@@ -6,7 +6,6 @@ import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 import net.wraith.chaosmod.block.ModBlocks;
 import net.wraith.chaosmod.util.ModTags;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -24,6 +23,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         // Planks
         getOrCreateTagBuilder(ItemTags.PLANKS)
                 .add(ModBlocks.ETHERIAM_PLANK.asItem());
+
+        getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.ETHERIAM_LOG.asItem())
+                .add(ModBlocks.ETHERIAM_WOOD.asItem());
 
         // Etheriam logs
         getOrCreateTagBuilder(ModTags.Items.ETHERIAM_LOGS)

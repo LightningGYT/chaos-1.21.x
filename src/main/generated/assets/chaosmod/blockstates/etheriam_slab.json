@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chaosmod:block/etheriam_slab"
+    },
+    "type=double": {
+      "model": "chaosmod:block/etheriam_plank"
+    },
+    "type=top": {
+      "model": "chaosmod:block/etheriam_slab_top"
+    }
+  }
+}

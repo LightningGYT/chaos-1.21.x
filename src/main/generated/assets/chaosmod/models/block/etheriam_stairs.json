@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "chaosmod:block/etheriam_plank",
+    "side": "chaosmod:block/etheriam_plank",
+    "top": "chaosmod:block/etheriam_plank"
+  }
+}

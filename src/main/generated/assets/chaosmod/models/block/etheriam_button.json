@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "chaosmod:block/etheriam_plank"
+  }
+}

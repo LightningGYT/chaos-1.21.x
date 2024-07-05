@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "chaosmod:block/etheriam_door_bottom",
+    "top": "chaosmod:block/etheriam_door_top"
+  }
+}

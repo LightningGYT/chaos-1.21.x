@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_etheriam_plank": {
+      "conditions": {
+        "items": [
+          {
+            "items": "chaosmod:etheriam_plank"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "chaosmod:etheriam_pressure_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_etheriam_plank"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chaosmod:etheriam_pressure_plate"
+    ]
+  }
+}

@@ -39,7 +39,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.ETHERIAM_LOG)
                 .add(ModBlocks.ETHERIAM_PLANK)
-                .add(ModBlocks.ETHERIAM_WOOD);
+                .add(ModBlocks.ETHERIAM_WOOD)
+                .add(ModBlocks.ETHERIAM_BUTTON)
+                .add(ModBlocks.ETHERIAM_DOOR)
+                .add(ModBlocks.ETHERIAM_FENCE)
+                .add(ModBlocks.ETHERIAM_FENCE_GATE)
+                .add(ModBlocks.ETHERIAM_SLAB)
+                .add(ModBlocks.ETHERIAM_STAIRS)
+                .add(ModBlocks.ETHERIAM_TRAPDOOR)
+                .add(ModBlocks.ETHERIAM_PRESSURE_PLATE);
 
         // Logs
         getOrCreateTagBuilder(BlockTags.LOGS)
@@ -53,5 +61,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(ModTags.Blocks.ETHERIAM_LOGS)
                 .add(ModBlocks.ETHERIAM_WOOD)
                 .add(ModBlocks.ETHERIAM_LOG);
+
+        // Fences
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.ETHERIAM_FENCE);
+
+        // Fence Gates
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.ETHERIAM_FENCE_GATE);
+
+
     }
 }

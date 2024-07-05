@@ -2,6 +2,14 @@
   "values": [
     "chaosmod:etheriam_log",
     "chaosmod:etheriam_plank",
-    "chaosmod:etheriam_wood"
+    "chaosmod:etheriam_wood",
+    "chaosmod:etheriam_button",
+    "chaosmod:etheriam_door",
+    "chaosmod:etheriam_fence",
+    "chaosmod:etheriam_fence_gate",
+    "chaosmod:etheriam_slab",
+    "chaosmod:etheriam_stairs",
+    "chaosmod:etheriam_trapdoor",
+    "chaosmod:etheriam_pressure_plate"
   ]
 }

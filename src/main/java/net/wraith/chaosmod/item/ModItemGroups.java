@@ -30,6 +30,15 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ETHERIAM_LOG);
                         entries.add(ModBlocks.ETHERIAM_WOOD);
                         entries.add(ModBlocks.ETHERIAM_PLANK);
+
+                        entries.add(ModBlocks.ETHERIAM_STAIRS);
+                        entries.add(ModBlocks.ETHERIAM_SLAB);
+                        entries.add(ModBlocks.ETHERIAM_BUTTON);
+                        entries.add(ModBlocks.ETHERIAM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.ETHERIAM_FENCE);
+                        entries.add(ModBlocks.ETHERIAM_FENCE_GATE);
+                        entries.add(ModBlocks.ETHERIAM_DOOR);
+                        entries.add(ModBlocks.ETHERIAM_TRAPDOOR);
                     }).build());
 
     public static void registerItemGroups() {

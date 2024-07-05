@@ -36,6 +36,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ETHERIAM_WOOD);
         addDrop(ModBlocks.ETHERIAM_PLANK);
 
+        addDrop(ModBlocks.ETHERIAM_STAIRS);
+        addDrop(ModBlocks.ETHERIAM_SLAB, slabDrops(ModBlocks.ETHERIAM_SLAB));
+        addDrop(ModBlocks.ETHERIAM_BUTTON);
+        addDrop(ModBlocks.ETHERIAM_PRESSURE_PLATE);
+        addDrop(ModBlocks.ETHERIAM_FENCE);
+        addDrop(ModBlocks.ETHERIAM_FENCE_GATE);
+        addDrop(ModBlocks.ETHERIAM_DOOR, doorDrops(ModBlocks.ETHERIAM_DOOR));
+        addDrop(ModBlocks.ETHERIAM_TRAPDOOR);
+
 
         // Ores
         addDrop(ModBlocks.RUBY_ORE, oreDrops(ModBlocks.RUBY_ORE, ModItems.RUBY));
