@@ -24,6 +24,7 @@ public class ModBlocks {
 
 
     // End grass Block
+    // NOTE: NOT AUTO GENERATED
     public static final Block ETHERIAM_GRASS_BLOCK = registerBlock("etheriam_grass_block",
             new Block(Block.Settings.copy(Blocks.END_STONE).mapColor(MapColor.PURPLE)));
 
