@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.wraith.chaosmod.ChaosMod;
+import net.wraith.chaosmod.block.EtheriamBlocks;
 import net.wraith.chaosmod.block.ModBlocks;
 
 public class ModItemGroups {
@@ -26,19 +27,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
-                        entries.add(ModBlocks.ETHERIAM_GRASS_BLOCK);
-                        entries.add(ModBlocks.ETHERIAM_LOG);
-                        entries.add(ModBlocks.ETHERIAM_WOOD);
-                        entries.add(ModBlocks.ETHERIAM_PLANK);
+                        entries.add(EtheriamBlocks.ETHERIAM_GRASS_BLOCK);
+                        entries.add(EtheriamBlocks.ETHERIAM_LOG);
+                        entries.add(EtheriamBlocks.ETHERIAM_WOOD);
+                        entries.add(EtheriamBlocks.ETHERIAM_PLANK);
 
-                        entries.add(ModBlocks.ETHERIAM_STAIRS);
-                        entries.add(ModBlocks.ETHERIAM_SLAB);
-                        entries.add(ModBlocks.ETHERIAM_BUTTON);
-                        entries.add(ModBlocks.ETHERIAM_PRESSURE_PLATE);
-                        entries.add(ModBlocks.ETHERIAM_FENCE);
-                        entries.add(ModBlocks.ETHERIAM_FENCE_GATE);
-                        entries.add(ModBlocks.ETHERIAM_DOOR);
-                        entries.add(ModBlocks.ETHERIAM_TRAPDOOR);
+                        entries.add(EtheriamBlocks.ETHERIAM_STAIRS);
+                        entries.add(EtheriamBlocks.ETHERIAM_SLAB);
+                        entries.add(EtheriamBlocks.ETHERIAM_BUTTON);
+                        entries.add(EtheriamBlocks.ETHERIAM_PRESSURE_PLATE);
+                        entries.add(EtheriamBlocks.ETHERIAM_FENCE);
+                        entries.add(EtheriamBlocks.ETHERIAM_FENCE_GATE);
+                        entries.add(EtheriamBlocks.ETHERIAM_DOOR);
+                        entries.add(EtheriamBlocks.ETHERIAM_TRAPDOOR);
                     }).build());
 
     public static void registerItemGroups() {

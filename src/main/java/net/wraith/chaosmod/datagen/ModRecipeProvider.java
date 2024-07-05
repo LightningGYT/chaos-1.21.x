@@ -8,6 +8,7 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.wraith.chaosmod.block.EtheriamBlocks;
 import net.wraith.chaosmod.block.ModBlocks;
 import net.wraith.chaosmod.item.ModItems;
 import net.wraith.chaosmod.util.ModTags;
@@ -39,16 +40,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
         // Etheriam wood stuff
-        offerBarkBlockRecipe(exporter, ModBlocks.ETHERIAM_WOOD, ModBlocks.ETHERIAM_LOG);
-        offerPlanksRecipe(exporter, ModBlocks.ETHERIAM_PLANK, ModTags.Items.ETHERIAM_LOGS, 4);
-        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ETHERIAM_SLAB, ModBlocks.ETHERIAM_PLANK);
-        offerPressurePlateRecipe(exporter, ModBlocks.ETHERIAM_PRESSURE_PLATE, ModBlocks.ETHERIAM_PLANK);
-        offerButtonRecipe(exporter, ModBlocks.ETHERIAM_BUTTON, ModBlocks.ETHERIAM_PLANK);
-        offerStairsRecipe(exporter, ModBlocks.ETHERIAM_STAIRS, ModBlocks.ETHERIAM_PLANK);
-        offerFenceRecipe(exporter, ModBlocks.ETHERIAM_FENCE, ModBlocks.ETHERIAM_PLANK);
-        offerFenceGateRecipe(exporter, ModBlocks.ETHERIAM_FENCE_GATE, ModBlocks.ETHERIAM_PLANK);
-        offerDoorRecipe(exporter, ModBlocks.ETHERIAM_DOOR, ModBlocks.ETHERIAM_PLANK);
-        offerTrapdoorRecipe(exporter, ModBlocks.ETHERIAM_TRAPDOOR, ModBlocks.ETHERIAM_PLANK);
+        offerBarkBlockRecipe(exporter, EtheriamBlocks.ETHERIAM_WOOD, EtheriamBlocks.ETHERIAM_LOG);
+        offerPlanksRecipe(exporter, EtheriamBlocks.ETHERIAM_PLANK, ModTags.Items.ETHERIAM_LOGS, 4);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, EtheriamBlocks.ETHERIAM_SLAB, EtheriamBlocks.ETHERIAM_PLANK);
+        offerPressurePlateRecipe(exporter, EtheriamBlocks.ETHERIAM_PRESSURE_PLATE, EtheriamBlocks.ETHERIAM_PLANK);
+        offerButtonRecipe(exporter, EtheriamBlocks.ETHERIAM_BUTTON, EtheriamBlocks.ETHERIAM_PLANK);
+        offerStairsRecipe(exporter, EtheriamBlocks.ETHERIAM_STAIRS, EtheriamBlocks.ETHERIAM_PLANK);
+        offerFenceRecipe(exporter, EtheriamBlocks.ETHERIAM_FENCE, EtheriamBlocks.ETHERIAM_PLANK);
+        offerFenceGateRecipe(exporter, EtheriamBlocks.ETHERIAM_FENCE_GATE, EtheriamBlocks.ETHERIAM_PLANK);
+        offerDoorRecipe(exporter, EtheriamBlocks.ETHERIAM_DOOR, EtheriamBlocks.ETHERIAM_PLANK);
+        offerTrapdoorRecipe(exporter, EtheriamBlocks.ETHERIAM_TRAPDOOR, EtheriamBlocks.ETHERIAM_PLANK);
 
 
 

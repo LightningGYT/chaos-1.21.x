@@ -9,6 +9,7 @@ import net.minecraft.loot.LootTable;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LootPoolEntry;
 import net.minecraft.registry.RegistryWrapper;
+import net.wraith.chaosmod.block.EtheriamBlocks;
 import net.wraith.chaosmod.block.ModBlocks;
 import net.wraith.chaosmod.item.ModItems;
 
@@ -32,18 +33,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         // Basic blocks
         addDrop(ModBlocks.RUBY_BLOCK);
-        addDrop(ModBlocks.ETHERIAM_LOG);
-        addDrop(ModBlocks.ETHERIAM_WOOD);
-        addDrop(ModBlocks.ETHERIAM_PLANK);
+        addDrop(EtheriamBlocks.ETHERIAM_LOG);
+        addDrop(EtheriamBlocks.ETHERIAM_WOOD);
+        addDrop(EtheriamBlocks.ETHERIAM_PLANK);
 
-        addDrop(ModBlocks.ETHERIAM_STAIRS);
-        addDrop(ModBlocks.ETHERIAM_SLAB, slabDrops(ModBlocks.ETHERIAM_SLAB));
-        addDrop(ModBlocks.ETHERIAM_BUTTON);
-        addDrop(ModBlocks.ETHERIAM_PRESSURE_PLATE);
-        addDrop(ModBlocks.ETHERIAM_FENCE);
-        addDrop(ModBlocks.ETHERIAM_FENCE_GATE);
-        addDrop(ModBlocks.ETHERIAM_DOOR, doorDrops(ModBlocks.ETHERIAM_DOOR));
-        addDrop(ModBlocks.ETHERIAM_TRAPDOOR);
+        addDrop(EtheriamBlocks.ETHERIAM_STAIRS);
+        addDrop(EtheriamBlocks.ETHERIAM_SLAB, slabDrops(EtheriamBlocks.ETHERIAM_SLAB));
+        addDrop(EtheriamBlocks.ETHERIAM_BUTTON);
+        addDrop(EtheriamBlocks.ETHERIAM_PRESSURE_PLATE);
+        addDrop(EtheriamBlocks.ETHERIAM_FENCE);
+        addDrop(EtheriamBlocks.ETHERIAM_FENCE_GATE);
+        addDrop(EtheriamBlocks.ETHERIAM_DOOR, doorDrops(EtheriamBlocks.ETHERIAM_DOOR));
+        addDrop(EtheriamBlocks.ETHERIAM_TRAPDOOR);
 
 
         // Ores
@@ -51,6 +52,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPSLATE_RUBY_ORE, oreDrops(ModBlocks.DEEPSLATE_RUBY_ORE, ModItems.RUBY));
 
         // Other
-        addDrop(ModBlocks.ETHERIAM_GRASS_BLOCK, etheriamGrassDrops(ModBlocks.ETHERIAM_GRASS_BLOCK, Blocks.END_STONE.asItem()));
+        addDrop(EtheriamBlocks.ETHERIAM_GRASS_BLOCK, etheriamGrassDrops(EtheriamBlocks.ETHERIAM_GRASS_BLOCK, Blocks.END_STONE.asItem()));
     }
 }

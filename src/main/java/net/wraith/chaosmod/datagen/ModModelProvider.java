@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.client.*;
+import net.wraith.chaosmod.block.EtheriamBlocks;
 import net.wraith.chaosmod.block.ModBlocks;
 import net.wraith.chaosmod.item.ModItems;
 
@@ -22,7 +23,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_RUBY_ORE);
 
         // Wood
-        blockStateModelGenerator.registerLog(ModBlocks.ETHERIAM_LOG).log(ModBlocks.ETHERIAM_LOG).wood(ModBlocks.ETHERIAM_WOOD);
+        blockStateModelGenerator.registerLog(EtheriamBlocks.ETHERIAM_LOG).log(EtheriamBlocks.ETHERIAM_LOG).wood(EtheriamBlocks.ETHERIAM_WOOD);
 
 
         // Blocks
@@ -31,14 +32,14 @@ public class ModModelProvider extends FabricModelProvider {
         // Etheriam Grass
         TextureMap textureMap = new TextureMap()
                 .put(TextureKey.BOTTOM, TextureMap.getId(Blocks.END_STONE))
-                .put(TextureKey.TOP, TextureMap.getId(ModBlocks.ETHERIAM_GRASS_BLOCK))
-                .put(TextureKey.SIDE, TextureMap.getSubId(ModBlocks.ETHERIAM_GRASS_BLOCK, "_side"));
+                .put(TextureKey.TOP, TextureMap.getId(EtheriamBlocks.ETHERIAM_GRASS_BLOCK))
+                .put(TextureKey.SIDE, TextureMap.getSubId(EtheriamBlocks.ETHERIAM_GRASS_BLOCK, "_side"));
         blockStateModelGenerator.blockStateCollector.accept(
                 VariantsBlockStateSupplier.create(
-                        ModBlocks.ETHERIAM_GRASS_BLOCK,
+                        EtheriamBlocks.ETHERIAM_GRASS_BLOCK,
                         BlockStateVariant.create()
                                 .put(VariantSettings.MODEL, Models.CUBE_BOTTOM_TOP.upload(
-                                        ModBlocks.ETHERIAM_GRASS_BLOCK,
+                                        EtheriamBlocks.ETHERIAM_GRASS_BLOCK,
                                         textureMap,
                                         blockStateModelGenerator.modelCollector
                                 ))
@@ -47,16 +48,16 @@ public class ModModelProvider extends FabricModelProvider {
 
 
         // Etheriam Plank things
-        BlockStateModelGenerator.BlockTexturePool etheriamPlankPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ETHERIAM_PLANK);
+        BlockStateModelGenerator.BlockTexturePool etheriamPlankPool = blockStateModelGenerator.registerCubeAllModelTexturePool(EtheriamBlocks.ETHERIAM_PLANK);
 
-        etheriamPlankPool.stairs(ModBlocks.ETHERIAM_STAIRS);
-        etheriamPlankPool.slab(ModBlocks.ETHERIAM_SLAB);
-        etheriamPlankPool.button(ModBlocks.ETHERIAM_BUTTON);
-        etheriamPlankPool.pressurePlate(ModBlocks.ETHERIAM_PRESSURE_PLATE);
-        etheriamPlankPool.fence(ModBlocks.ETHERIAM_FENCE);
-        etheriamPlankPool.fenceGate(ModBlocks.ETHERIAM_FENCE_GATE);
-        blockStateModelGenerator.registerDoor(ModBlocks.ETHERIAM_DOOR);
-        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.ETHERIAM_TRAPDOOR);
+        etheriamPlankPool.stairs(EtheriamBlocks.ETHERIAM_STAIRS);
+        etheriamPlankPool.slab(EtheriamBlocks.ETHERIAM_SLAB);
+        etheriamPlankPool.button(EtheriamBlocks.ETHERIAM_BUTTON);
+        etheriamPlankPool.pressurePlate(EtheriamBlocks.ETHERIAM_PRESSURE_PLATE);
+        etheriamPlankPool.fence(EtheriamBlocks.ETHERIAM_FENCE);
+        etheriamPlankPool.fenceGate(EtheriamBlocks.ETHERIAM_FENCE_GATE);
+        blockStateModelGenerator.registerDoor(EtheriamBlocks.ETHERIAM_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(EtheriamBlocks.ETHERIAM_TRAPDOOR);
 
     }
 

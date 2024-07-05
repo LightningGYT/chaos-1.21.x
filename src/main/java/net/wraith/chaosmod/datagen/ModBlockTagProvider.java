@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
+import net.wraith.chaosmod.block.EtheriamBlocks;
 import net.wraith.chaosmod.block.ModBlocks;
 import net.wraith.chaosmod.util.ModTags;
 
@@ -21,7 +22,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)
                 .add(ModBlocks.RUBY_BLOCK)
                 .add(ModBlocks.RUBY_ORE)
-                .add(ModBlocks.ETHERIAM_GRASS_BLOCK);
+                .add(EtheriamBlocks.ETHERIAM_GRASS_BLOCK);
 
         // Needs Stone tools
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
@@ -37,38 +38,38 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         // Axe
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
-                .add(ModBlocks.ETHERIAM_LOG)
-                .add(ModBlocks.ETHERIAM_PLANK)
-                .add(ModBlocks.ETHERIAM_WOOD)
-                .add(ModBlocks.ETHERIAM_BUTTON)
-                .add(ModBlocks.ETHERIAM_DOOR)
-                .add(ModBlocks.ETHERIAM_FENCE)
-                .add(ModBlocks.ETHERIAM_FENCE_GATE)
-                .add(ModBlocks.ETHERIAM_SLAB)
-                .add(ModBlocks.ETHERIAM_STAIRS)
-                .add(ModBlocks.ETHERIAM_TRAPDOOR)
-                .add(ModBlocks.ETHERIAM_PRESSURE_PLATE);
+                .add(EtheriamBlocks.ETHERIAM_LOG)
+                .add(EtheriamBlocks.ETHERIAM_PLANK)
+                .add(EtheriamBlocks.ETHERIAM_WOOD)
+                .add(EtheriamBlocks.ETHERIAM_BUTTON)
+                .add(EtheriamBlocks.ETHERIAM_DOOR)
+                .add(EtheriamBlocks.ETHERIAM_FENCE)
+                .add(EtheriamBlocks.ETHERIAM_FENCE_GATE)
+                .add(EtheriamBlocks.ETHERIAM_SLAB)
+                .add(EtheriamBlocks.ETHERIAM_STAIRS)
+                .add(EtheriamBlocks.ETHERIAM_TRAPDOOR)
+                .add(EtheriamBlocks.ETHERIAM_PRESSURE_PLATE);
 
         // Logs
         getOrCreateTagBuilder(BlockTags.LOGS)
-                .add(ModBlocks.ETHERIAM_LOG);
+                .add(EtheriamBlocks.ETHERIAM_LOG);
 
         // Planks
         getOrCreateTagBuilder(BlockTags.PLANKS)
-                .add(ModBlocks.ETHERIAM_PLANK);
+                .add(EtheriamBlocks.ETHERIAM_PLANK);
 
         // Etheriam Logs
         getOrCreateTagBuilder(ModTags.Blocks.ETHERIAM_LOGS)
-                .add(ModBlocks.ETHERIAM_WOOD)
-                .add(ModBlocks.ETHERIAM_LOG);
+                .add(EtheriamBlocks.ETHERIAM_WOOD)
+                .add(EtheriamBlocks.ETHERIAM_LOG);
 
         // Fences
         getOrCreateTagBuilder(BlockTags.FENCES)
-                .add(ModBlocks.ETHERIAM_FENCE);
+                .add(EtheriamBlocks.ETHERIAM_FENCE);
 
         // Fence Gates
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
-                .add(ModBlocks.ETHERIAM_FENCE_GATE);
+                .add(EtheriamBlocks.ETHERIAM_FENCE_GATE);
 
 
     }
