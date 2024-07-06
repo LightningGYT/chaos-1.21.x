@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
+import net.wraith.chaosmod.block.Ethereal;
 import net.wraith.chaosmod.block.EtheriamBlocks;
 import net.wraith.chaosmod.block.ModBlocks;
 import net.wraith.chaosmod.util.ModTags;
@@ -22,7 +23,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)
                 .add(ModBlocks.RUBY_BLOCK)
                 .add(ModBlocks.RUBY_ORE)
-                .add(EtheriamBlocks.ETHERIAM_GRASS_BLOCK);
+                .add(EtheriamBlocks.ETHERIAM_GRASS_BLOCK)
+                .add(Ethereal.ETHEREAL_ORE);
 
         // Needs Stone tools
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
@@ -34,8 +36,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE);
 
         // Needs Diamond tools
-        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL);
-
+        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(Ethereal.ETHEREAL_ORE);
         // Axe
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(EtheriamBlocks.ETHERIAM_LOG)

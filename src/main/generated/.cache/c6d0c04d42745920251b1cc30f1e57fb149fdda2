@@ -1,5 +1,6 @@
-// 1.21	2024-07-06T00:06:35.1958391	Chaos Mod/Block Loot Tables
+// 1.21	2024-07-06T17:37:01.9832762	Chaos Mod/Block Loot Tables
 6a3163befb1b06ee0050abcd36eb81fe99592712 data\chaosmod\loot_table\blocks\etheriam_grass_block.json
+96301b0edc83ea798c1023f2fa314912e7459ddd data\chaosmod\loot_table\blocks\ethereal_ore.json
 ed18899648f44a7944dbe3c47f7064f8b843ffee data\chaosmod\loot_table\blocks\etheriam_wood.json
 bc981837f0c0cffd664b1859d827528b873ab482 data\chaosmod\loot_table\blocks\ruby_ore.json
 004d80a8a315544655371e0e0e614131e4df5a2d data\chaosmod\loot_table\blocks\etheriam_slab.json
@@ -8,8 +9,8 @@ fc851e9088d7ea989b6e9ff9f06989ec27e1762d data\chaosmod\loot_table\blocks\etheria
 c68052d17f61e2d8455609450bd16c6576b019f0 data\chaosmod\loot_table\blocks\deepslate_ruby_ore.json
 957ae9a3d499cc70dc1d39552c949d53efbb3af8 data\chaosmod\loot_table\blocks\etheriam_pressure_plate.json
 88e493fee9b73e211e88156b2ca6c5d3022f90a7 data\chaosmod\loot_table\blocks\etheriam_trapdoor.json
-89699fd8fd199c7ac8a7f7f05668dc1a7e7ad572 data\chaosmod\loot_table\blocks\etheriam_door.json
 376efe111dc49063398d9240d21fb52ff116c0ee data\chaosmod\loot_table\blocks\etheriam_button.json
+89699fd8fd199c7ac8a7f7f05668dc1a7e7ad572 data\chaosmod\loot_table\blocks\etheriam_door.json
 1aaef3e5dfacdf17c9ec8d098aad9d2e3254d7c6 data\chaosmod\loot_table\blocks\etheriam_log.json
 e6e045a3661a2a01f0dbd053e846a2079ba1230b data\chaosmod\loot_table\blocks\etheriam_plank.json
 44c15e826533e29523dec666b83c1ba3a151f3f7 data\chaosmod\loot_table\blocks\etheriam_fence.json

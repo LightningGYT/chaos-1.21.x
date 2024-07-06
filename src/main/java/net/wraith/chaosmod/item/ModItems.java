@@ -24,6 +24,9 @@ public class ModItems {
     public static final Item LETTUCE = registerItem("lettuce",
             new Item(new Item.Settings().food(ModFoodComponents.LETTUCE)));
 
+    public static final Item ETHEREAL_ESSENCE = registerItem("ethereal_essence",
+            new Item(new Item.Settings()));
+
     // Add Items Method
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ChaosMod.MOD_ID, name), item);

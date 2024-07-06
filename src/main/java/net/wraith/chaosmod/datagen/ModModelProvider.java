@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.client.*;
+import net.wraith.chaosmod.block.Ethereal;
 import net.wraith.chaosmod.block.EtheriamBlocks;
 import net.wraith.chaosmod.block.ModBlocks;
 import net.wraith.chaosmod.item.ModItems;
@@ -59,6 +60,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(EtheriamBlocks.ETHERIAM_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(EtheriamBlocks.ETHERIAM_TRAPDOOR);
 
+        // Ethereal ore
+        blockStateModelGenerator.registerSimpleCubeAll(Ethereal.ETHEREAL_ORE);
     }
 
     @Override
@@ -68,5 +71,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.ROTTEN_TOMATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.LETTUCE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ETHEREAL_ESSENCE, Models.GENERATED);
     }
 }
