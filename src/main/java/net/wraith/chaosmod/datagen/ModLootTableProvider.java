@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.data.server.loottable.BlockLootTableGenerator;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
@@ -16,9 +15,10 @@ import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
-import net.wraith.chaosmod.block.Ethereal;
+import net.wraith.chaosmod.block.EtherealBlocks;
 import net.wraith.chaosmod.block.EtheriamBlocks;
 import net.wraith.chaosmod.block.ModBlocks;
+import net.wraith.chaosmod.item.EtherealItems;
 import net.wraith.chaosmod.item.ModItems;
 
 import java.util.concurrent.CompletableFuture;
@@ -50,7 +50,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         // Ores
         addDrop(ModBlocks.RUBY_ORE, oreDrops(ModBlocks.RUBY_ORE, ModItems.RUBY));
         addDrop(ModBlocks.DEEPSLATE_RUBY_ORE, oreDrops(ModBlocks.DEEPSLATE_RUBY_ORE, ModItems.RUBY));
-        addDrop(Ethereal.ETHEREAL_ORE, etherealOreDrops(Ethereal.ETHEREAL_ORE, ModItems.ETHEREAL_ESSENCE));
+        addDrop(EtherealBlocks.ETHEREAL_ORE, etherealOreDrops(EtherealBlocks.ETHEREAL_ORE, EtherealItems.ETHEREAL_ESSENCE));
 
         // Other
         addDrop(EtheriamBlocks.ETHERIAM_GRASS_BLOCK, etheriamGrassDrops(EtheriamBlocks.ETHERIAM_GRASS_BLOCK, Blocks.END_STONE.asItem()));

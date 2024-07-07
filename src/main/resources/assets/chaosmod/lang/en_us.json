@@ -19,7 +19,20 @@
   "block.chaosmod.etheriam_fence": "Etheriam Fence",
   "block.chaosmod.etheriam_fence_gate": "Etheriam Fence Gate",
   "block.chaosmod.etheriam_door": "Etheriam Door",
-  "block.chaosmod.etheriam_trapdoor": "Etheriam Trapdoor",
+  "block.chaosmod.ethereal_ore": "Ethereal Ore",
+
+  "item.chaosmod.etheriam_trapdoor": "Etheriam Trapdoor",
+  "item.chaosmod.ethereal_pickaxe": "Ethereal Pickaxe",
+  "item.chaosmod.ethereal_axe": "Ethereal Axe",
+  "item.chaosmod.ethereal_sword": "Ethereal Sword",
+  "item.chaosmod.ethereal_hoe": "Ethereal Hoe",
+  "item.chaosmod.ethereal_shovel": "Ethereal Shovel",
+  "item.chaosmod.ethereal_essence": "Ethereal Essence",
+  "item.chaosmod.ethereal_ingot": "Ethereal Ingot",
+  "item.chaosmod.ethereal_helmet": "Ethereal Helmet",
+  "item.chaosmod.ethereal_chestplate": "Ethereal Chestplate",
+  "item.chaosmod.ethereal_leggings": "Ethereal Leggings",
+  "item.chaosmod.ethereal_boots": "Ethereal Boots",
 
   "itemgroup.chaos": "ChAoS gRoUp"
 }

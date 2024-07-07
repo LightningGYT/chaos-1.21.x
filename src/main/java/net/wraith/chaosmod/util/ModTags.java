@@ -13,6 +13,7 @@ public class ModTags {
         public static final TagKey<Block> ETHERIAM_LOGS =
                 createTag("etheriam_logs");
 
+
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(ChaosMod.MOD_ID, name));
         }

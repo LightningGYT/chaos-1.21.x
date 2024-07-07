@@ -2,9 +2,12 @@ package net.wraith.chaosmod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
-import net.wraith.chaosmod.block.Ethereal;
+import net.minecraft.registry.tag.TagKey;
+import net.minecraft.util.Identifier;
+import net.wraith.chaosmod.block.EtherealBlocks;
 import net.wraith.chaosmod.block.EtheriamBlocks;
 import net.wraith.chaosmod.block.ModBlocks;
 import net.wraith.chaosmod.util.ModTags;
@@ -24,7 +27,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RUBY_BLOCK)
                 .add(ModBlocks.RUBY_ORE)
                 .add(EtheriamBlocks.ETHERIAM_GRASS_BLOCK)
-                .add(Ethereal.ETHEREAL_ORE);
+                .add(EtherealBlocks.ETHEREAL_ORE);
 
         // Needs Stone tools
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
@@ -37,7 +40,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         // Needs Diamond tools
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(Ethereal.ETHEREAL_ORE);
+                .add(EtherealBlocks.ETHEREAL_ORE);
+
         // Axe
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(EtheriamBlocks.ETHERIAM_LOG)
@@ -72,6 +76,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         // Fence Gates
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(EtheriamBlocks.ETHERIAM_FENCE_GATE);
+
+
+        // Require Netherite tools
+        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, Identifier.of("fabric", "needs_tool_level_4")));
 
 
     }

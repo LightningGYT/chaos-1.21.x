@@ -25,7 +25,7 @@ public class ModBlocks {
 
 
 
-    private static Block registerBlock(String name, Block block) {
+    static Block registerBlock(String name, Block block) {
         Item item = registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(ChaosMod.MOD_ID, name), block);
     }
@@ -37,7 +37,7 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         EtheriamBlocks.registerEtheriamBlocks();
-        Ethereal.registerEthereal();
+        EtherealBlocks.registerEthereal();
         ChaosMod.LOGGER.info("Registering Mod Blocks for " + ChaosMod.MOD_ID);
     }
 }

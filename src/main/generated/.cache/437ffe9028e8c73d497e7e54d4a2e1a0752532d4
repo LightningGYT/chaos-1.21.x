@@ -1,5 +1,10 @@
-// 1.21	2024-07-06T17:37:01.9868294	Chaos Mod/Tags for minecraft:item
+// 1.21	2024-07-07T20:34:37.6275962	Chaos Mod/Tags for minecraft:item
+0314f9d3568569d7d7c578763f12e26eb9a43c90 data\minecraft\tags\item\hoes.json
 e63474380cffc905cb214ac4e151c0be9eaaaeed data\minecraft\tags\item\planks.json
-ea2e5328f75c121728414597375e7165cad8ffc1 data\chaosmod\tags\item\etheriam_logs.json
+927312764392b437a667aaa47a36c7d47170bb1e data\chaosmod\tags\item\etheriam_logs.json
+3103c84b159d89c1138c00773aad2b38804650a7 data\minecraft\tags\item\axes.json
+69ea14143197bd56d62ba2dc7de9ea67bdb9481b data\minecraft\tags\item\shovels.json
 ea2e5328f75c121728414597375e7165cad8ffc1 data\minecraft\tags\item\logs_that_burn.json
 e994789b1d7e31132644c89053403d30a3335dd2 data\minecraft\tags\item\logs.json
+8791aad4d58228ca6acae368ebb33f7334a8c23f data\minecraft\tags\item\pickaxes.json
+2b3432d019f6d29503b7048430eaf89cedd6476e data\minecraft\tags\item\swords.json

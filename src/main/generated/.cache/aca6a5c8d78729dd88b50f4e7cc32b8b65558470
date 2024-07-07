@@ -1,4 +1,5 @@
-// 1.21	2024-07-06T17:37:01.9842723	Chaos Mod/Tags for minecraft:block
+// 1.21	2024-07-07T20:34:37.6251636	Chaos Mod/Tags for minecraft:block
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\fabric\tags\block\needs_tool_level_4.json
 af4cf058cfa834e8a20a2d133616e6e8acf9e18e data\minecraft\tags\block\fences.json
 f6775cbfd503519ee373d5f4121ffdc96fd23c8c data\minecraft\tags\block\mineable\axe.json
 4f10d1ec3fc09e3a029975d2d9eaa2e7d81122ba data\minecraft\tags\block\needs_iron_tool.json

@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.wraith.chaosmod.block.EtheriamBlocks;
 import net.wraith.chaosmod.block.ModBlocks;
+import net.wraith.chaosmod.item.ModArmorMaterial;
 import net.wraith.chaosmod.item.ModItemGroups;
 import net.wraith.chaosmod.item.ModItems;
 import net.wraith.chaosmod.util.ModFuels;
@@ -17,6 +18,8 @@ public class ChaosMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModArmorMaterial.initialize();
+
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();

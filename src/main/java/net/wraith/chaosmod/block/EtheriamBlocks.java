@@ -1,12 +1,8 @@
 package net.wraith.chaosmod.block;
 
 import net.minecraft.block.*;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
-import net.wraith.chaosmod.ChaosMod;
+
+import static net.wraith.chaosmod.block.ModBlocks.registerBlock;
 
 
 public class EtheriamBlocks {
@@ -30,6 +26,18 @@ public class EtheriamBlocks {
                     .requiresTool()
                     .strength(0.5f)
             ));
+
+    public static final Block STRIPPED_ETHERIAM_LOG = registerBlock("stripped_etheriam_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_LOG)
+                    .mapColor(MapColor.PURPLE)
+                    .requiresTool()
+                    .strength(0.5f)));
+
+    public static final Block STRIPPED_ETHERIAM_WOOD = registerBlock("stripped_etheriam_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD)
+                    .mapColor(MapColor.PURPLE)
+                    .requiresTool()
+                    .strength(0.5f)));
 
     // Etheriam Plank
     public static final Block ETHERIAM_PLANK = registerBlock("etheriam_plank",
@@ -74,15 +82,7 @@ public class EtheriamBlocks {
                     .nonOpaque()
             ));
 
-    private static Block registerBlock(String name, Block block) {
-        Item item = registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(ChaosMod.MOD_ID, name), block);
-    };
 
-    private static Item registerBlockItem(String name, Block block) {
-        return Registry.register(Registries.ITEM, Identifier.of(ChaosMod.MOD_ID, name),
-                new BlockItem(block, new Item.Settings()));
-    }
 
     public static void registerEtheriamBlocks() {
 

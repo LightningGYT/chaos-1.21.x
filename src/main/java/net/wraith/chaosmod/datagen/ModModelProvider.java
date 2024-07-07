@@ -4,9 +4,10 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.client.*;
-import net.wraith.chaosmod.block.Ethereal;
+import net.wraith.chaosmod.block.EtherealBlocks;
 import net.wraith.chaosmod.block.EtheriamBlocks;
 import net.wraith.chaosmod.block.ModBlocks;
+import net.wraith.chaosmod.item.EtherealItems;
 import net.wraith.chaosmod.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -25,6 +26,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         // Wood
         blockStateModelGenerator.registerLog(EtheriamBlocks.ETHERIAM_LOG).log(EtheriamBlocks.ETHERIAM_LOG).wood(EtheriamBlocks.ETHERIAM_WOOD);
+        blockStateModelGenerator.registerLog(EtheriamBlocks.STRIPPED_ETHERIAM_LOG).log(EtheriamBlocks.STRIPPED_ETHERIAM_LOG).wood(EtheriamBlocks.STRIPPED_ETHERIAM_WOOD);
 
 
         // Blocks
@@ -61,7 +63,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerOrientableTrapdoor(EtheriamBlocks.ETHERIAM_TRAPDOOR);
 
         // Ethereal ore
-        blockStateModelGenerator.registerSimpleCubeAll(Ethereal.ETHEREAL_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(EtherealBlocks.ETHEREAL_ORE);
     }
 
     @Override
@@ -71,6 +73,13 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.ROTTEN_TOMATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.LETTUCE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.ETHEREAL_ESSENCE, Models.GENERATED);
+        itemModelGenerator.register(EtherealItems.ETHEREAL_ESSENCE, Models.GENERATED);
+        itemModelGenerator.register(EtherealItems.ETHEREAL_INGOT, Models.GENERATED);
+
+        itemModelGenerator.register(EtherealItems.ETHEREAL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(EtherealItems.ETHEREAL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(EtherealItems.ETHEREAL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(EtherealItems.ETHEREAL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(EtherealItems.ETHEREAL_HOE, Models.HANDHELD);
     }
 }

@@ -2,10 +2,12 @@ package net.wraith.chaosmod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 import net.wraith.chaosmod.block.EtheriamBlocks;
 import net.wraith.chaosmod.block.ModBlocks;
+import net.wraith.chaosmod.item.EtherealItems;
 import net.wraith.chaosmod.util.ModTags;
 
 import java.util.concurrent.CompletableFuture;
@@ -21,6 +23,26 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.LOGS)
                 .add(EtheriamBlocks.ETHERIAM_LOG.asItem());
 
+        // Pickaxes
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(EtherealItems.ETHEREAL_PICKAXE);
+
+        // Swords
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(EtherealItems.ETHEREAL_SWORD);
+
+        // Hoes
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(EtherealItems.ETHEREAL_HOE);
+
+        // Shovels
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(EtherealItems.ETHEREAL_SHOVEL);
+
+        // Axes
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(EtherealItems.ETHEREAL_AXE);
+
         // Planks
         getOrCreateTagBuilder(ItemTags.PLANKS)
                 .add(EtheriamBlocks.ETHERIAM_PLANK.asItem());
@@ -32,6 +54,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         // Etheriam logs
         getOrCreateTagBuilder(ModTags.Items.ETHERIAM_LOGS)
                 .add(EtheriamBlocks.ETHERIAM_LOG.asItem())
-                .add(EtheriamBlocks.ETHERIAM_WOOD.asItem());
+                .add(EtheriamBlocks.ETHERIAM_WOOD.asItem())
+                .add(EtheriamBlocks.STRIPPED_ETHERIAM_LOG.asItem())
+                .add(EtheriamBlocks.STRIPPED_ETHERIAM_WOOD.asItem());
     }
 }

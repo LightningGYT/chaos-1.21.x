@@ -22,7 +22,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             ModBlocks.DEEPSLATE_RUBY_ORE
     );
 
-
     public ModRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
     }
@@ -40,6 +39,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
         // Etheriam wood stuff
+        offerBarkBlockRecipe(exporter, EtheriamBlocks.STRIPPED_ETHERIAM_WOOD, EtheriamBlocks.STRIPPED_ETHERIAM_LOG);
         offerBarkBlockRecipe(exporter, EtheriamBlocks.ETHERIAM_WOOD, EtheriamBlocks.ETHERIAM_LOG);
         offerPlanksRecipe(exporter, EtheriamBlocks.ETHERIAM_PLANK, ModTags.Items.ETHERIAM_LOGS, 4);
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, EtheriamBlocks.ETHERIAM_SLAB, EtheriamBlocks.ETHERIAM_PLANK);

@@ -1,6 +1,8 @@
 {
   "values": [
     "chaosmod:etheriam_log",
-    "chaosmod:etheriam_wood"
+    "chaosmod:etheriam_wood",
+    "chaosmod:stripped_etheriam_log",
+    "chaosmod:stripped_etheriam_wood"
   ]
 }

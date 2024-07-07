@@ -1,9 +1,10 @@
-// 1.21	2024-07-06T17:37:01.9893461	Chaos Mod/Recipes
+// 1.21	2024-07-07T20:34:37.6305858	Chaos Mod/Recipes
 4463687d50fc177bc5f9980bb54e446b2c586ead data\chaosmod\recipe\ruby_from_smelting_ruby_ore.json
 a34bf72ab1305405e21c2e5170fc1aa463ef8b25 data\chaosmod\advancement\recipes\building_blocks\etheriam_slab.json
 e75be2ffc5195b481b8d2ec2178ecac28cc49613 data\chaosmod\advancement\recipes\redstone\etheriam_trapdoor.json
 2fe0c8d1825c08c8bc380f12ff9820d206bab07e data\chaosmod\advancement\recipes\misc\ruby_from_blasting_ruby_ore.json
 036165d351661107143551b1d5a21e40448d194a data\chaosmod\advancement\recipes\redstone\etheriam_pressure_plate.json
+ada713dcd10a688d1d2815133b5cc4fb017aba5e data\chaosmod\recipe\stripped_etheriam_wood.json
 8de04ff823c04016b7d529255f250ec811d79d6a data\chaosmod\recipe\etheriam_button.json
 5886e6558b989dc48cd118ae586a6c0f301c18e0 data\chaosmod\advancement\recipes\misc\ruby_from_smelting_deepslate_ruby_ore.json
 f436a733532361afb3620cc20cbd6d5d33c965ed data\chaosmod\advancement\recipes\building_blocks\etheriam_stairs.json
@@ -24,6 +25,7 @@ dce7140fa29ba45e27e5645ba39052d1dd7ad688 data\chaosmod\recipe\etheriam_fence_gat
 a349b327a5f83b5d9c3f1e115a99ff839e7c5a55 data\chaosmod\advancement\recipes\redstone\etheriam_door.json
 9f1cbc5a04779d8e136d26d8a0abed3cbdbf8c65 data\chaosmod\advancement\recipes\building_blocks\ruby.json
 918cb0977cfa274eaf082f8c68b187900e6c4ae5 data\chaosmod\advancement\recipes\redstone\etheriam_fence_gate.json
+6bec864a2b0148a2e0b171b8fe6b4d002d0f3bba data\chaosmod\advancement\recipes\building_blocks\stripped_etheriam_wood.json
 f6dc034449e2110de3743941d3677fa9765923c5 data\chaosmod\advancement\recipes\misc\ruby_from_smelting_ruby_ore.json
 b0bd8f62ff0ca1d1cbfc7f8507a5fef8afecee9c data\chaosmod\recipe\ruby.json
 c3bbd90b6bf8e6f2538df8f5202ace4210ecc686 data\chaosmod\advancement\recipes\decorations\etheriam_fence.json
